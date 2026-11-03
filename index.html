@@ -179,6 +179,14 @@ a{color:var(--accent-dark);text-underline-offset:4px}button,a{-webkit-tap-highli
 .print-button{font:inherit;background:none;color:inherit;border:1px solid #ffffff55;border-radius:5px;padding:1px 10px;cursor:pointer}
 @media(max-width:600px){.hero{padding:52px 22px 42px}.hero-meta{gap:18px}.toc{padding:24px}.section{margin-top:60px}.route-grid,.session-grid,.overview .toc ol{grid-template-columns:1fr}.session-card{padding:22px}.topnav{font-size:12px;padding:12px 18px}.topnav .event-label{display:none}.overview .hero{padding:54px 24px}.lead{padding:22px;font-size:17px}.takeaway{padding:28px}.page-nav{font-size:12px}.source-box{padding:20px}.formula{font-size:17px}}
 @media print{.topnav,.page-nav,.progress-bar,.print-button{display:none!important}.hero{print-color-adjust:exact;-webkit-print-color-adjust:exact}.section{break-before:auto;margin-top:35px}.slide-fig,.key-box,.phase-card{break-inside:avoid}.article{padding-bottom:0}.slide-fig img{max-height:70vh;object-fit:contain}.footer-card{margin:30px auto}.booklet details:not([open]){display:none}a{color:inherit}}
+
+.hero-shortcuts{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 32px}
+.hero-shortcuts a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;border:1px solid #ffffff80;border-radius:8px;color:#fff;background:#ffffff12;text-decoration:none;font-size:15px;font-weight:600}
+.hero-shortcuts a:last-child{background:#fff;color:#27205c;border-color:#fff}
+.hero-shortcuts a:hover{box-shadow:0 0 0 2px #ffffff55}
+.hero-shortcuts a:focus-visible{outline:3px solid #fde68a;outline-offset:4px}
+@media(max-width:600px){.hero-shortcuts{gap:10px}.hero-shortcuts a{flex:1 1 140px;padding:12px 14px;font-size:14px}}
+@media print{.hero-shortcuts{display:none}}
 </style>
 </head>
 <body class="overview">
@@ -188,6 +196,7 @@ a{color:var(--accent-dark);text-underline-offset:4px}button,a{-webkit-tap-highli
     <span class="hero-badge">개인 학습용 · CONFERENCE FIELD NOTES · TREND SHOW 2027</span>
     <h1>2027년을 준비하는<br><span>조직의 결정</span></h1>
     <p class="hero-sub">AI Agenda · 2027년이 오기 전에 우리 조직이 내려야 할 7가지 결정</p>
+    <nav class="hero-shortcuts" aria-label="랩업과 토론 바로가기"><a href="00_%EC%86%90%EC%9E%AC%EA%B6%8C.html">랩업 노트 보기 →</a><a href="discussion.html">일곱 가지 결정 · 토론하기 →</a></nav>
     <div class="hero-meta"><div class="meta-item"><strong>10개 발표 + 랩업</strong>전체 학습 노트</div><div class="meta-item"><strong>2026.10.22</strong>주최·주관 더밀크</div><div class="meta-item"><strong>AI AGENDA</strong>7가지 결정</div></div>
   </div>
 </header>
